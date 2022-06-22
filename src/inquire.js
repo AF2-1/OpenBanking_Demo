@@ -1,5 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, SafeAreaView, Button, Alert } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import 'react-native-gesture-handler';
 
 export default function Inquire({navigation}) {
@@ -17,11 +16,6 @@ export default function Inquire({navigation}) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-  },
   title: {
     fontSize: 30,
   }
