@@ -4,13 +4,13 @@ import 'react-native-gesture-handler';
 export default function Auth({navigation}) {
   return (
     <View>
-        <Text>Auth</Text>
-        <Button 
-            title='홈 화면으로'
-            onPress={() => {
-                navigation.navigate('Home')
-            }}
-        />
+      <Text style={styles.title}>인증</Text>
+      <Button 
+        title='홈 화면으로'
+        onPress={() => {
+          navigation.navigate('홈 화면')
+        }}
+      />
     </View>
   );
 }
@@ -18,5 +18,6 @@ export default function Auth({navigation}) {
 const styles = StyleSheet.create({
   title: {
     fontSize: 30,
+    textAlign: 'center'
   }
 });

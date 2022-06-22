@@ -12,9 +12,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Auth" component={Auth} />
-        <Stack.Screen name="Inquire" component={Inquire} />
+        <Stack.Screen name='홈 화면' component={Home} />
+        <Stack.Screen name='인증' component={Auth} />
+        <Stack.Screen name='조회' component={Inquire} />
       </Stack.Navigator>
     </NavigationContainer>
   );
