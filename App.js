@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './src/home';
 import Auth from './src/auth';
+import User from './src/user';
 import Inquire from './src/inquire';
 
 const Stack = createStackNavigator();
@@ -14,6 +15,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name='홈 화면' component={Home} />
         <Stack.Screen name='인증' component={Auth} />
+        <Stack.Screen name='사용자' component={User} />
         <Stack.Screen name='조회' component={Inquire} />
       </Stack.Navigator>
     </NavigationContainer>

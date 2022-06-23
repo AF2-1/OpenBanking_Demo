@@ -12,6 +12,12 @@ export default function Home({navigation}) {
         }}
       />
       <Button 
+        title='사용자'
+        onPress={() => {
+          navigation.navigate('사용자')
+        }}
+      />
+      <Button 
         title='조회'
         onPress={() => {
           navigation.navigate('조회')
